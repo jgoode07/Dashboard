@@ -5,6 +5,7 @@ body {
   padding: 1.25rem; /* Ensure container isn't against body edge */
 }
 
+/* Dashboard */
 .dashboard-container {
   max-width: 900px; /* Restrict max container size */
   margin: 0 auto; /* Center container vertically on screen */
@@ -32,6 +33,7 @@ body {
   width: 30px; /* Consistent sizing so text after icon is spaced evenly */
 }
 
+/* Box content */
 .text {
   font-size: 1rem;
   color: #333;
@@ -41,6 +43,7 @@ body {
   font-size: 1.5rem; /* make the number larger */
   font-weight: 700;  /* bold it */
   color: #222;
+  padding-right: 0.25rem;
 }
 
 /* Individual colours for each icon so it's easier to tell them apart */
