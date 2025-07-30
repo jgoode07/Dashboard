@@ -32,9 +32,15 @@ body {
   width: 30px; /* Consistent sizing so text after icon is spaced evenly */
 }
 
-.dashboard-box .text {
+.text {
   font-size: 1rem;
   color: #333;
+}
+
+.big-number {
+  font-size: 1.5rem; /* make the number larger */
+  font-weight: 700;  /* bold it */
+  color: #222;
 }
 
 /* Individual colours for each icon so it's easier to tell them apart */
