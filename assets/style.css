@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif; /* Sans-serif backup */
+  font-family: "Poppins", sans-serif; /* Sans-serif backup */
   background-color: #f5f5f5;
   margin: 0; /* Reset margin for body */
   padding: 1.25rem; /* Ensure container isn't against body edge */
@@ -14,4 +14,45 @@ body {
   display: flex; /* Using flex to line up the boxes in a row instead of stacking them */
   gap: 1.25rem; /* Gap and margin between rows are consistent */
   margin-bottom: 1.25rem;
+}
+
+.dashboard-box {
+  display: flex;
+  flex: 1; /* Lets each box grow and share space evenly in the row */
+  align-items: center; /* Keeps the icon and text lined up in the middle */
+  gap: 15px;
+  background-color: #fff;
+  padding: 1.25rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a soft shadow to make boxes pop off the page */
+}
+
+.dashboard-box .icon {
+  font-size: 1.5rem;
+  width: 30px; /* Consistent sizing so text after icon is spaced evenly */
+}
+
+.dashboard-box .text {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Individual colours for each icon so it's easier to tell them apart */
+.blue i {
+  color: #3b82f6;
+}
+.green i {
+  color: #10b981;
+}
+.pink i {
+  color: #ec4899;
+}
+.red i {
+  color: #ef4444;
+}
+.purple i {
+  color: #8b5cf6;
+}
+.yellow i {
+  color: #f59e0b;
 }
