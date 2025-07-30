@@ -1,0 +1,17 @@
+body {
+  font-family: 'Poppins', sans-serif; /* Sans-serif backup */
+  background-color: #f5f5f5;
+  margin: 0; /* Reset margin for body */
+  padding: 1.25rem; /* Ensure container isn't against body edge */
+}
+
+.dashboard-container {
+  max-width: 900px; /* Restrict max container size */
+  margin: 0 auto; /* Center container vertically on screen */
+}
+
+.dashboard-row {
+  display: flex; /* Using flex to line up the boxes in a row instead of stacking them */
+  gap: 1.25rem; /* Gap and margin between rows are consistent */
+  margin-bottom: 1.25rem;
+}
